@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raylyn/Desktop/PROJECT/CommandLine.cpp" "/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/CommandLine.cpp.o"
-  "/home/raylyn/Desktop/PROJECT/Configuration.cpp" "/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/Configuration.cpp.o"
-  "/home/raylyn/Desktop/PROJECT/Tool.cpp" "/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/Tool.cpp.o"
-  "/home/raylyn/Desktop/PROJECT/auDiskTool.cpp" "/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/auDiskTool.cpp.o"
-  "/home/raylyn/Desktop/PROJECT/main.cpp" "/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/main.cpp.o"
+  "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/CommandLine.cpp" "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/CommandLine.cpp.o"
+  "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.cpp" "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/Configuration.cpp.o"
+  "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp" "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/Tool.cpp.o"
+  "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/auDiskTool.cpp" "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/auDiskTool.cpp.o"
+  "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/main.cpp" "/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

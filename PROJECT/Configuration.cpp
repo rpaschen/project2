@@ -26,7 +26,7 @@ Configuration::Configuration(std::string configFile) {
     std::ifstream inFile;
     inFile.open(configFile);
     if (!inFile) {
-        std::cerr << "Error opening file, reverting to default configuration.";
+        std::cerr << "Error opening file, reverting to default configuration.\n\n";
         inFile.close();
         new (this) Configuration();
     }
@@ -120,6 +120,13 @@ bool Configuration::saveConfig(std::string configFile) {
     outFile << interval << std::endl << count << std::endl << reportFile << std::endl << blk_read << std::endl << blk_read_s << std::endl << kb_read_s << std::endl << blk_write << std::endl << blk_write_s << std::endl << kb_write_s;
     outFile.close();
     return true;
+}
+
+void Configuration::printConf() {
+    std::cout << "Monitoring time = " << interval << " Seconds, Number of records = " << count << "," << std::endl;
+    std::cout << "print_blk_read = " << blk_read << ", print_blk_read/s = " << blk_read_s << ", print_kb_read/s = " << kb_read_s << "," << std::endl;
+    std::cout << "print_blk_write = " << blk_write << ", print_blk_write/s = " << blk_write_s << ", print_kb_write/s = " << kb_write_s << "," << std::endl;
+    std::cout << "report file name = '" << reportFile << "'\n" << std::endl;
 }
 
 

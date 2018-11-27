@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raylyn/Downloads/clion-2018.2.6/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/raylyn/Downloads/clion-2018.2.6/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raylyn/Desktop/PROJECT
+CMAKE_SOURCE_DIR = /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raylyn/Desktop/PROJECT/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PROJECT.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/PROJECT.dir/flags.make
 
 CMakeFiles/PROJECT.dir/main.cpp.o: CMakeFiles/PROJECT.dir/flags.make
 CMakeFiles/PROJECT.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PROJECT.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/main.cpp.o -c /home/raylyn/Desktop/PROJECT/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PROJECT.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/main.cpp.o -c /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/main.cpp
 
 CMakeFiles/PROJECT.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJECT.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raylyn/Desktop/PROJECT/main.cpp > CMakeFiles/PROJECT.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/main.cpp > CMakeFiles/PROJECT.dir/main.cpp.i
 
 CMakeFiles/PROJECT.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJECT.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raylyn/Desktop/PROJECT/main.cpp -o CMakeFiles/PROJECT.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/main.cpp -o CMakeFiles/PROJECT.dir/main.cpp.s
 
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.o: CMakeFiles/PROJECT.dir/flags.make
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.o: ../auDiskTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PROJECT.dir/auDiskTool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/auDiskTool.cpp.o -c /home/raylyn/Desktop/PROJECT/auDiskTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PROJECT.dir/auDiskTool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/auDiskTool.cpp.o -c /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/auDiskTool.cpp
 
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJECT.dir/auDiskTool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raylyn/Desktop/PROJECT/auDiskTool.cpp > CMakeFiles/PROJECT.dir/auDiskTool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/auDiskTool.cpp > CMakeFiles/PROJECT.dir/auDiskTool.cpp.i
 
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJECT.dir/auDiskTool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raylyn/Desktop/PROJECT/auDiskTool.cpp -o CMakeFiles/PROJECT.dir/auDiskTool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/auDiskTool.cpp -o CMakeFiles/PROJECT.dir/auDiskTool.cpp.s
 
 CMakeFiles/PROJECT.dir/Configuration.cpp.o: CMakeFiles/PROJECT.dir/flags.make
 CMakeFiles/PROJECT.dir/Configuration.cpp.o: ../Configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PROJECT.dir/Configuration.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/Configuration.cpp.o -c /home/raylyn/Desktop/PROJECT/Configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PROJECT.dir/Configuration.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/Configuration.cpp.o -c /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.cpp
 
 CMakeFiles/PROJECT.dir/Configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJECT.dir/Configuration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raylyn/Desktop/PROJECT/Configuration.cpp > CMakeFiles/PROJECT.dir/Configuration.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.cpp > CMakeFiles/PROJECT.dir/Configuration.cpp.i
 
 CMakeFiles/PROJECT.dir/Configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJECT.dir/Configuration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raylyn/Desktop/PROJECT/Configuration.cpp -o CMakeFiles/PROJECT.dir/Configuration.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.cpp -o CMakeFiles/PROJECT.dir/Configuration.cpp.s
 
 CMakeFiles/PROJECT.dir/Tool.cpp.o: CMakeFiles/PROJECT.dir/flags.make
 CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Tool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PROJECT.dir/Tool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/Tool.cpp.o -c /home/raylyn/Desktop/PROJECT/Tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PROJECT.dir/Tool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/Tool.cpp.o -c /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp
 
 CMakeFiles/PROJECT.dir/Tool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJECT.dir/Tool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raylyn/Desktop/PROJECT/Tool.cpp > CMakeFiles/PROJECT.dir/Tool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp > CMakeFiles/PROJECT.dir/Tool.cpp.i
 
 CMakeFiles/PROJECT.dir/Tool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJECT.dir/Tool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raylyn/Desktop/PROJECT/Tool.cpp -o CMakeFiles/PROJECT.dir/Tool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp -o CMakeFiles/PROJECT.dir/Tool.cpp.s
 
 CMakeFiles/PROJECT.dir/CommandLine.cpp.o: CMakeFiles/PROJECT.dir/flags.make
 CMakeFiles/PROJECT.dir/CommandLine.cpp.o: ../CommandLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PROJECT.dir/CommandLine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/CommandLine.cpp.o -c /home/raylyn/Desktop/PROJECT/CommandLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PROJECT.dir/CommandLine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROJECT.dir/CommandLine.cpp.o -c /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/CommandLine.cpp
 
 CMakeFiles/PROJECT.dir/CommandLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJECT.dir/CommandLine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raylyn/Desktop/PROJECT/CommandLine.cpp > CMakeFiles/PROJECT.dir/CommandLine.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/CommandLine.cpp > CMakeFiles/PROJECT.dir/CommandLine.cpp.i
 
 CMakeFiles/PROJECT.dir/CommandLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJECT.dir/CommandLine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raylyn/Desktop/PROJECT/CommandLine.cpp -o CMakeFiles/PROJECT.dir/CommandLine.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/CommandLine.cpp -o CMakeFiles/PROJECT.dir/CommandLine.cpp.s
 
 # Object files for target PROJECT
 PROJECT_OBJECTS = \
@@ -140,7 +140,7 @@ PROJECT: CMakeFiles/PROJECT.dir/Tool.cpp.o
 PROJECT: CMakeFiles/PROJECT.dir/CommandLine.cpp.o
 PROJECT: CMakeFiles/PROJECT.dir/build.make
 PROJECT: CMakeFiles/PROJECT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PROJECT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PROJECT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PROJECT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/PROJECT.dir/clean:
 .PHONY : CMakeFiles/PROJECT.dir/clean
 
 CMakeFiles/PROJECT.dir/depend:
-	cd /home/raylyn/Desktop/PROJECT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raylyn/Desktop/PROJECT /home/raylyn/Desktop/PROJECT /home/raylyn/Desktop/PROJECT/cmake-build-debug /home/raylyn/Desktop/PROJECT/cmake-build-debug /home/raylyn/Desktop/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug /Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/cmake-build-debug/CMakeFiles/PROJECT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PROJECT.dir/depend
 

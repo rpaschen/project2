@@ -6,25 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/raylyn/Desktop/PROJECT/CommandLine.cpp
-CommandLine.h
-/home/raylyn/Desktop/PROJECT/CommandLine.h
-
-/home/raylyn/Desktop/PROJECT/CommandLine.h
-
-/home/raylyn/Desktop/PROJECT/Configuration.cpp
-iostream
--
-cstdlib
--
-string
--
-fstream
--
-Configuration.h
-/home/raylyn/Desktop/PROJECT/Configuration.h
-
-/home/raylyn/Desktop/PROJECT/Configuration.h
+/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.h
 iostream
 -
 string
@@ -34,19 +16,31 @@ cstdlib
 fstream
 -
 
-/home/raylyn/Desktop/PROJECT/Tool.cpp
+/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp
+iostream
+-
+cstdlib
+-
+string
+-
+fstream
+-
+vector
+-
+sstream
+-
 Tool.h
-/home/raylyn/Desktop/PROJECT/Tool.h
+/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.h
+Configuration.h
+/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.h
 
-/home/raylyn/Desktop/PROJECT/Tool.h
-
-/home/raylyn/Desktop/PROJECT/main.cpp
+/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.h
 iostream
 -
 cstdlib
 -
-fstream
--
 string
+-
+fstream
 -
 

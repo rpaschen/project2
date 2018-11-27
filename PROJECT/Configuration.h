@@ -37,6 +37,7 @@ public:
     int getKb_write();
     void setKb_write(int _kb_write_s);
     bool saveConfig(std::string configFile);
+    void printConf();
 
 private:
     // Fields
