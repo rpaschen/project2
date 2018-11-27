@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PROJECT.dir/main.cpp.o CMakeFiles/PROJECT.dir/auDiskTool.cpp.o CMakeFiles/PROJECT.dir/Configuration.cpp.o CMakeFiles/PROJECT.dir/Tool.cpp.o CMakeFiles/PROJECT.dir/CommandLine.cpp.o  -o PROJECT 
