@@ -13,7 +13,7 @@ CommandLine::CommandLine() {
 
 }
 
-bool getData(Report &r) {
+bool CommandLine::getData(Report &r) {
     system("grep 'sda2' /proc/diskstats > data.txt");
 
     std::ifstream inFile;

@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <string>
 #include <fstream>
+#include <unistd.h>
 #ifndef PROJECT_TOOL_H
 #define PROJECT_TOOL_H
 

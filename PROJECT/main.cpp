@@ -2,8 +2,8 @@
 #include <cstdlib>
 #include <fstream>
 #include <string>
+#include <unistd.h>
 #include "Tool.h"
-#include "Configuration.h"
 
 using namespace std;
 

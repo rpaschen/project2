@@ -8,7 +8,7 @@
 #include <fstream>
 #include <vector>
 #include <iomanip>
-
+#include <unistd.h>
 #include "Report.h"
 #include "Configuration.h"
 

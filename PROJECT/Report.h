@@ -7,6 +7,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <unistd.h>
 #include "Configuration.h"
 #ifndef PROJECT_REPORT_H
 #define PROJECT_REPORT_H

@@ -22,7 +22,6 @@ CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Tool.h
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.o: ../auDiskTool.cpp
 CMakeFiles/PROJECT.dir/auDiskTool.cpp.o: ../auDiskTool.h
 
-CMakeFiles/PROJECT.dir/main.cpp.o: ../Configuration.h
 CMakeFiles/PROJECT.dir/main.cpp.o: ../Tool.h
 CMakeFiles/PROJECT.dir/main.cpp.o: ../main.cpp
 
