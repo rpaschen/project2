@@ -90,6 +90,12 @@
 		<Unit filename="/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Configuration.h">
 			<Option target="PROJECT"/>
 		</Unit>
+		<Unit filename="/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Report.cpp">
+			<Option target="PROJECT"/>
+		</Unit>
+		<Unit filename="/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Report.h">
+			<Option target="PROJECT"/>
+		</Unit>
 		<Unit filename="/Users/raylyn/Desktop/COMP/Assignments/PROJECT2/project2/PROJECT/Tool.cpp">
 			<Option target="PROJECT"/>
 		</Unit>

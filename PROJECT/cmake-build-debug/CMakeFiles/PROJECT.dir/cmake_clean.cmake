@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PROJECT.dir/Configuration.cpp.o"
   "CMakeFiles/PROJECT.dir/Tool.cpp.o"
   "CMakeFiles/PROJECT.dir/CommandLine.cpp.o"
+  "CMakeFiles/PROJECT.dir/Report.cpp.o"
   "PROJECT.pdb"
   "PROJECT"
 )

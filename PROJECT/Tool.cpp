@@ -7,9 +7,12 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <unistd.h>
 #include <sstream>
 #include "Tool.h"
 #include "Configuration.h"
+#include "Report.h"
+#include "CommandLine.h"
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wmissing-noreturn"
@@ -53,6 +56,8 @@ void Tool::run() {
     std::string tempCmd3;
     int value;
     Configuration conf(configFile);
+    CommandLine cmd;
+    Report rep(conf.getReportFile());
 
     while (true) {
         std::cout << ">";
@@ -64,7 +69,15 @@ void Tool::run() {
         }
 
         else if(command == "run") {
-            t.run();
+
+            conf.printConf();
+            std::cout << "Please wait...\n" << std::endl;
+            for (int i = 0; i <conf.getCount(); i++) {
+                cmd.getData(rep);
+                sleep(conf.getInterval());
+            }
+            rep.writeReport(conf);
+            std::cout << "A file '" << conf.getReportFile() << "' is updated.\n";
         }
 
         else if(command == "print conf") {
@@ -72,15 +85,31 @@ void Tool::run() {
         }
 
         else if(command == "print report") {
-
+            if (rep.records.empty()) {
+                std::cout << "No record found in '" << rep.reportFile << "'\n" << std::endl;
+            }
+            else {
+                rep.printReport(conf);
+            }
         }
 
         else if (command == "save") {
-            conf.saveConfig(configFile);
+            Configuration testConfig(configFile);
 
+            if (conf.getInterval() == testConfig.getInterval() && conf.getCount() == testConfig.getCount()
+                && conf.getBlk_read() == testConfig.getBlk_read() && conf.getBlk_read_s() == testConfig.getBlk_read_s()
+                && conf.getKb_read_s() == testConfig.getKb_read_s() && conf.getBlk_write() == testConfig.getBlk_write()
+                && conf.getBlk_write_s() == testConfig.getBlk_write_s() && conf.getKb_write() == testConfig.getKb_write()) {
+
+                std::cout << "audisktool.conf has not been updated. There is no need to save the file.\n" << std::endl;
+            }
+            else {
+                conf.saveConfig(configFile);
+                std::cout << "file audisktool.conf has been updated.\n" << std::endl;
+            }
         }
         else if (command == "display") {
-            std::cout << "other command\n" << std::endl;
+            std::cout << "Exiting the tool...\n" << std::endl;
             break;
         }
 
@@ -240,6 +269,7 @@ void Tool::run() {
                         std::cout << "'" << tempCmd3 << "'" << std::endl;
                         std::cout << "Note: '" << conf.getReportFile() << "' will not be deleted by audisktool." << std::endl;
                         conf.setReportFile(tempCmd3);
+                        rep.reportFile = tempCmd3;
                     }
                 }
             }

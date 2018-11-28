@@ -13,7 +13,7 @@
 class Tool {
 public:
 
-    // constructor prototypes
+    // constructor prototype
     Tool();
 
     // function prototypes

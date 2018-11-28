@@ -3,11 +3,19 @@
 
 CMakeFiles/PROJECT.dir/CommandLine.cpp.o: ../CommandLine.cpp
 CMakeFiles/PROJECT.dir/CommandLine.cpp.o: ../CommandLine.h
+CMakeFiles/PROJECT.dir/CommandLine.cpp.o: ../Configuration.h
+CMakeFiles/PROJECT.dir/CommandLine.cpp.o: ../Report.h
 
 CMakeFiles/PROJECT.dir/Configuration.cpp.o: ../Configuration.cpp
 CMakeFiles/PROJECT.dir/Configuration.cpp.o: ../Configuration.h
 
+CMakeFiles/PROJECT.dir/Report.cpp.o: ../Configuration.h
+CMakeFiles/PROJECT.dir/Report.cpp.o: ../Report.cpp
+CMakeFiles/PROJECT.dir/Report.cpp.o: ../Report.h
+
+CMakeFiles/PROJECT.dir/Tool.cpp.o: ../CommandLine.h
 CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Configuration.h
+CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Report.h
 CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Tool.cpp
 CMakeFiles/PROJECT.dir/Tool.cpp.o: ../Tool.h
 
